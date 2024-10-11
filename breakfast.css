@@ -1,0 +1,119 @@
+.card1{
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.card2{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+} 
+.card{
+    margin-left: 33px;
+}
+.had{
+   color: black;
+   font-size: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder; 
+   margin-left: 350px;
+   margin-top: 80px;
+}
+
+#header{
+    height: 70px;
+    background-color:white;
+}
+
+li{
+    margin-left: 100px;
+    list-style: none;
+    margin-top: 15px;
+}
+.nav a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: none;
+    font-weight: bolder;
+}
+
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo{
+    position: absolute;
+    left: 0%;
+    top: 1%;
+    margin-left: 50px;
+}
+footer {
+    width: 100%;
+    height: 450px;
+    background-color:white;
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    box-sizing: border-box;
+    margin-top: 50PX;
+}
+
+footer .col, footer .col1 {
+    width: 30%;
+}
+
+footer h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    margin-left: 80PX;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+}
+
+
+footer .loc, footer .contact, footer .mail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+footer .loc img {
+    margin-right: 10px;
+}
+
+footer .contact i, footer .mail i {
+    color: #ffcc00;
+    margin-right: 10px;
+}
+
+
+.bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+}
+
+.bottom p {
+    margin: 0;
+}
